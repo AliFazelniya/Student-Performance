@@ -17,10 +17,13 @@ def slugify(text: str) -> str:
     return text if text else "figure"
 
 
-def save_all_figs(title) -> None:
+def save_all_figs(title: str | None = None) -> None:
     for i in plt.get_fignums():
         fig = plt.figure(i)
         axes = fig.get_axes()
-        filename = slugify(title) + ".png"
+        base = slugify(title) if title else (
+            slugify(axes[0].get_title()) if axes and axes[0].get_title() else f"figure_{i}"
+        )
+        filename = f"{base}_{i}.png"
         fig.savefig(OUT_DIR / filename, dpi=300, bbox_inches="tight")
     print(f"All figures saved in {OUT_DIR}")
