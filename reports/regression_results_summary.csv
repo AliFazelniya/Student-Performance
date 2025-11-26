@@ -1,0 +1,13 @@
+dataset,scenario,model,n_features,MAE,RMSE,R2,CV_RMSE_mean,CV_RMSE_std
+mat,with_G1_G2,LinearRegression,46,0.36,0.52,0.724,0.445,0.082
+mat,with_G1_G2,RandomForestRegressor,46,0.257,0.431,0.811,0.392,0.063
+mat,with_G1_G2,XGBRegressor,46,0.275,0.452,0.791,0.405,0.087
+mat,without_G1_G2,LinearRegression,44,0.742,0.917,0.141,0.971,0.14
+mat,without_G1_G2,RandomForestRegressor,44,0.657,0.826,0.303,0.906,0.115
+mat,without_G1_G2,XGBRegressor,44,0.688,0.859,0.246,0.991,0.109
+por,with_G1_G2,LinearRegression,46,0.167,0.266,0.849,0.294,0.07
+por,with_G1_G2,RandomForestRegressor,46,0.166,0.275,0.838,0.302,0.073
+por,with_G1_G2,XGBRegressor,46,0.167,0.279,0.832,0.332,0.095
+por,without_G1_G2,LinearRegression,44,0.471,0.625,0.16,0.599,0.157
+por,without_G1_G2,RandomForestRegressor,44,0.448,0.618,0.18,0.605,0.145
+por,without_G1_G2,XGBRegressor,44,0.469,0.614,0.191,0.633,0.13
