@@ -2,6 +2,8 @@
 
 Comprehensive, reproducible analysis of the UCI student performance datasets. The repo includes preprocessing pipelines, exploratory notebooks, supervised models (regression/classification), unsupervised clustering, and utilities to automatically capture plots and reports.
 
+![Student Performance Overview](Header.png)
+
 ## Contents
 - `data/raw/`: Original UCI CSVs (`student-mat.csv`, `student-por.csv`) plus metadata and archives.
 - `data/processed/`: Feature matrices produced by the preprocessing pipeline.
