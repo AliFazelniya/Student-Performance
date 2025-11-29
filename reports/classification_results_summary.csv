@@ -1,7 +1,0 @@
-dataset,model,Accuracy,Precision,Recall,F1,AUC,CV_Mean_Accuracy,CV_STD_Accuracy
-mat,LogisticRegression,0.911,0.941,0.923,0.932,0.977,0.919,0.031
-mat,RandomForestClassifier,0.899,0.94,0.904,0.922,0.952,0.906,0.017
-mat,XGBClassifier,0.886,0.939,0.885,0.911,0.961,0.909,0.019
-por,LogisticRegression,0.923,0.965,0.948,0.956,0.958,0.904,0.028
-por,RandomForestClassifier,0.923,0.957,0.957,0.957,0.959,0.914,0.019
-por,XGBClassifier,0.915,0.956,0.948,0.952,0.954,0.911,0.031
